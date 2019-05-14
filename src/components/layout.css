@@ -1,10 +1,13 @@
 html {
+  color: white;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  max-width: 980px;
+  background-color: rgb(51,52,51);
+  margin: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -199,7 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: white;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -620,3 +623,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
